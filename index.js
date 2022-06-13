@@ -1,6 +1,6 @@
 // Your code goes here
 
-const ptext = document.getElementById('text');
-const changeText =()=> ptext.innerText=" This is really cool!"
-ptext.addEventListener('DOMContentLoaded',changeText);
+const pText = document.getElementById('text');
+const changeText =()=> pText.textContent="This is really cool!";
+document.addEventListener('DOMContentLoaded',changeText);
 
